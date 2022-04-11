@@ -1,0 +1,820 @@
+<!--  메일에 사용되는 DOCTYPE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>이메일 고지</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!--      디바이스에 따라서 사이즈 변경 -->
+  <!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+  <meta name="viewport" content="width=775, initial-scale=1, viewport-fit=cover" />
+</head>
+
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" width="775" style="border-collapse:collapse; border-spacing:0; margin:0 auto; font-family:-apple-system, BlinkMacSystemFont, Roboto, RobotoDraft,'맑은고딕',Malgun Gothic, Sans-serif; background-color: #fff;">
+    <tbody>
+      <!-- 메일 템플릿 Header -->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" style="width:100%; padding: 0; margin: 0; border-collapse:collapse; border-spacing:0;background-color: #fff;">
+            <tr>
+              <td height="24" colspan="4"></td>
+            </tr>
+            <tr>
+              <td width="24"></td>
+              <!-- IRIS logo -->
+              <td width="200">
+                <a href="http://iris.tools" target="_blank" title="새창" style="display: inline-block; text-decoration: none;">
+                  <!-- [D] 이미지 경로 필요 -->
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLVxExVavLBBXMyibqqlNor5GpMPEiXgdMsxop_PiafUIHBUi8_HKaWyQWHmAm9pckEN608Kob28fyBEIpEkCgt81ASsP64_ogrm01_eRAM6SxSV2WoyaJdzzptZcLjAaWnRxL5V4Mii616AFxgBAlEZ=w120-h36-no" alt="IRIS Logo" width="120" height="100%" style="display: block;">
+                </a>
+              </td>
+              <!-- // IRIS logo -->
+
+              <!--               IRIS Release Version -->
+              <td width="527" align="right" style="font-size: 16px; color: #77889A;">
+                IRIS Version 3.2.0 배포 안내
+              </td>
+              <td width="24"></td>
+              <!--              // IRIS Release Version -->
+            </tr>
+            <tr>
+              <td height="24" colspan="4"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- //메일 템플릿 Header -->
+
+      <!-- 배포 안내  -->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" height="380" style="width:100%; padding: 0; margin: 0; border-collapse:collapse; border-spacing:0;
+          background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLVGkT-jIPNlLFFby19MPW9tqKvzdcjV4VzBfmjnPTpUCnuO2_YvpIW27tBu8785jJrkkERXu1lfpeqagmLutiZDYQciFsTNP6Unl_lUK6DFqOaUJOxC_VgdqIBfZMwo4n4fsZC_S8GnYvlo0jJRP3lR=w775-h379-no?authuser=0'); background-repeat: no-repeat; background-size: 100% auto; background-color: #FFFFFF;">
+            <tr>
+              <td height="48"></td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size: 32px; color: #012656; font-weight: bold;">
+                IRIS 배포 안내
+              </td>
+            </tr>
+            <tr>
+              <td height="16"></td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size: 18px; color: #012656;">
+                <strong style="font-weight: 700">IRIS 개선 및 신규 기능 </strong>개발 사항 안내 드립니다.
+              </td>
+            </tr>
+            <tr>
+              <td height="24"></td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size: 15px; color: #606974; line-height: 24px;">
+                안녕하세요. "A New experience in Big Data Analytics" IRIS가 v3.2.0 으로 업그레이드<br />
+                예정입니다. 배포 내용에 대한 문의 사항이 있으면 회신 혹은 이메일 (rhcpn@mobigen.com <br />
+                UI솔루션연구팀 박세종 팀장)을 이용해 주시기 바랍니다.
+              </td>
+            </tr>
+            <tr>
+              <td height="60"></td>
+            </tr>
+            <!-- 주요 배포내용 상세  -->
+            <tr>
+              <td>
+                <table cellpadding="0" cellspacing="0" width="700" style="padding: 0; border-collapse:collapse; border-spacing:0; background-color: #fff; margin: 0 auto;">
+                  <tr>
+                    <td height="24" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td width="118" style="padding-left: 16px; font-size: 14px; font-weight: 600; color: #606974;">배포 버전</td>
+                    <td width="520" style="font-size: 14px; color: #606974;">
+                      IRIS v3.2.0
+                    </td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td colspan="4" height="1" style="border-top: 1px solid #F0F3F6;"></td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td width="118" style="padding-left: 16px; font-size: 14px; font-weight: 600; color: #606974;">배포 일자</td>
+                    <td width="520" style="font-size: 14px; color: #606974;">
+                      2022년 3월 25일
+                    </td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td colspan="4" height="1" style="border-top: 1px solid #F0F3F6;"></td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td width="118" style="padding-left: 16px; font-size: 14px; font-weight: 600; color: #606974;">배포 항목</td>
+                    <td width="520" style="font-size: 14px; color: #606974;">
+                      상세 내용 참고
+                      <p style="font-size: 14px; color: #77889A;">· 보다 자세한 상세 설명을 원하실 경우, "IRIS v3.2.0 주요 배포내용 상세보기 " 버튼 클릭 시, 상세 설명 문서로 이동합니다. </p>
+                    </td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td colspan="4" height="1" style="border-top: 1px solid #F0F3F6;"></td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" height="46" align="center">
+                      <a href="https://mobigen.atlassian.net/wiki/spaces/IRIS/pages/283738399/IRIS+v3.2.0+Release" target="_blank" style="display: inline-block; height: 24px; padding: 12px 16px 12px 16px; background-color: #005ACD; border-radius: 2px; color: #fff; text-decoration: none; font-size: 16px; vertical-align: middle; line-height: 24px;">
+                        IRIS v3.2.0 주요 배포내용 상세
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="24" colspan="4"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // 주요 배포내용 상세  -->
+          </table>
+        </td>
+      </tr>
+      <!-- // 배포 안내  -->
+
+      <!-- 배포  안내  상세 -->
+      <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0" width="700" style="padding:0; margin: 0 auto; background-color: #fff;">
+            <tbody>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td style="font-size: 18px; color: #212121; font-weight: 600;">
+                  IRIS 배포 안내 상세
+                </td>
+              </tr>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="3" style=" background: linear-gradient(269.9deg, #13D4FF 45.8%, #2182FF 86.64%);"></td>
+              </tr>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Studio]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  신규
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 데이터 탭 - 컬럼 다중 선택 기능 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      객체 내부 드래그 시 객체가 이동 되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 유형 추가 > Pandas (file, DB) / 직접입력
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  개선
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 모델 목록 조회 API 를 변경된 내용에 맞게 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 화면 UI 통일을 위한 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 / 카테고리 출력 영역 확장
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      카테고리 선택 / "미지정"을 "카테고리 없음" 으로 IMA 와 통일
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      카테고리 선택 / 콤보박스에 입력 필터(에디터) 기능 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 불러오기(getOne) 성능 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 저장시, 섬네일 이미지 생성이 매우 느린 문제 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      편집 / 캔버스 작업 화면 사이즈 축소로 인한 객체 bar UI 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      편집 /  "새로 저장"을 "다른 이름으로 저장"으로 기능 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      사용자 메시지 관리 / 필터 콤보박스를 '사용중'으로 변경하면 새 메시지 추가 버튼 클릭 시 입력 Form 이 보이지 않는 문제 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      꾸미기 옵션 > 그림자 /  '미리 설정'(그림자 방향)을 변경시 설정값 초기화 or 유지 처리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 객체 /  데이터 유형 일부를 show/hide 하는 설정 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 테이블의 숫자 값 표현 방식 선택 기능 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      List / 검색(filter) 입력시, 화면에 표시되는 텍스트를 기준으로 필터 동작하도록 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      주기설정 / start 동작시 바로 이벤트 트리거를 처리하는 옵션 필요
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Popup / 반응형 보고서에서 Dialog 가 반응형에 따라 크기가 조정되지 않는 문제 개선
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 테이블 유형 - 시각화옵션 > 일반 > 행 선택에서 다중선택(여러 행) 설정시 행을 선택하는 체크박스가 보이지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      내보내기 URL 로 보고서 실행시, 아이콘이 표시되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 인쇄 설정이 저장되지 않는 문제, 버튼의 툴팁 오류
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 보기에서 반응형 화면의 좌우 여백이 크게 생기는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      체크박스 라디오버튼 / Maximum call stack size exceeded 에러 발생
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Map > 시각화 레이어 > 항목탭에서 트리거 설정시, 트리거 연결 해제 버튼이 작용하지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      구분선 / 구분선 방향을 세로로 설정하고 객체를 복사하면 비정상 동작
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      화면 이미지 캡처 기능 사용시, 지도 배경(BaseMap) 이미지는 캡처가 안되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      슬라이더의 데이터탭과 속성탭 설정값 불일치 & 시각화옵션 디폴트색상이 미지정되어 있는 부분
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 삭제시 일부 데이터가 DB 에서 삭제되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 가져오기 실패 시 화면 멈춤 현상
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 시각화옵션 - 차트 크기 를 "사용자설정"으로 변경 시 테두리의 아래, 좌측 일부가 보이지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 시각화 옵션 > 데이터 표시 색상 콤보박스 UI 깨짐
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 시각화 옵션 > 데이터의 드롭다운이 길 경우 동작이 다른 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Tab / 텍스트 정렬이 세로일 경우 가로 세로 정렬이 타 객체와 다른 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      꾸미기 옵션 / 그림자 설정 드롭다운 아이콘 불일치
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Label / 서식 지우기 클릭시, 줄 간격은 초기화 되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      메시지 관리 / 메시지 개수 표시 오류
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      반응형 / 현재 선택한 화면 크기에 해당하는 객체 위치, 크기가 적용되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      객체 목록 / 우상단 드랍다운 선택 항목에 따라 UI가 깨지는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      객체 목록에서 디폴트 값으로 초기화 텍스트 미표시
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 테이블 - CRLF 변환 옵션 ON시, 텍스트가 겹치는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Map / 마커 > 항목탭의 컬럼에 모든 컬럼 선택이 안되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보고서 리스트 요청 시 데이터에 불필요한 값이 있거나 잘못된 성격의 데이터가 존재
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Map 데이터 연결 오류시에도, 에러메시지 보이지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      템플릿 카테고리 관리 / 카테고리 추가, 삭제 후 템플릿 카테고리 갱신이 되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      주기설정 / 작동 중에 갱신 주기를 변경할 경우 적용 안되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      증감률 객체 / 채우기 투명도 설정 처리 오류
+                    </li> 
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      IMA뷰어 / IMA에서 '레이어데이터필터' 적용 > "IMA뷰어 데이터필터" 부분 검색어에서 '|' 가 빠져 있는 문제
+                    </li>                    
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Map Analyzer]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  신규
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보기 화면 / 프로젝트 이름 표시 기능
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      보기 화면 / 베이스 맵 변경 기능
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      편집 / 데이터 전체 실행하기 기능으로 데이터 조회 시점 제어하는 기능 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      실행취소 기능
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      위도,경도에 대한 순서 변경 기능
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      채우기 타입에 조건부 서식 기능 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      조건부 서식 범례 및 범례 UI 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      팔레트 색상 다양화
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      임계치 세부화
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  개선
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 / 카테고리 목록 콤보박스에 카테고리 목록 필터 기능 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 / "권한설정" 팝업 > 기준 화면 크기보다 화면이 작을 경우, 그룹, 사용자 권한설정 화면이 위, 아래가 아닌 옆으로 배치되도록 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      베이스맵 관련 줌레벨 설정 처리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      국토정보플랫폼 지도 (NGII) 유형 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 모델 목록 정렬기준 통일
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 추가 / 선택된 모델/연결정보 강조처리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      꾸미기 옵션 / 시각화 옵션 UI 정리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      주제도 기능버튼 정리 및 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      서비스 화면 개선 (데이터 리스트, 더블클릭, 범례)
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      mapbox 줌관련 통일 작업
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 레이어 > 데이터 필터 > 검색어 입력 > 검색 실행 > 입력 검색어 삭제 후 재 실행 시, 검색 전 목록이 출력되지 않습니다.
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      코드 리펙토링
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      v3.1.2-PATCH 버그/개선 항목 기능확인 후 버그 리스트
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      IMA에서 '레이어데이터필터' 적용한 경우에 "IMA뷰어 - 데이터필터" 부분 검색어에서 '|' 가 빠져 있습니다.
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      편집 / 주제도에서 객체 삭제하면 삭제되는객체의 라벨1개만 삭제되고,나머지 라벨은 삭제되지 않고 그대로 표시되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      정상동작했던 프로젝트를 열면 오류메시지 팝업 창이 뜨는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      레이어 보기,숨기기 / 아이콘 변함 없음, 일부 미동작 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      레이어 보기,숨기기 /  버튼 동작 오류
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 / 검색어(필터)창에 단어 입력후 검색아이콘을 클릭하면 무응답이고 엔터를 쳐야 응답하는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 / 템플릿으로 시작 > 프로젝트 정보조회 실패시 top-bar가 2개 생기는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 / 3열 이상에 위치한 보고서의 메뉴 더보기 선택시 팝업 메뉴 선택할 수 없는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 추가 / DB 데이터 추가시 연결 정보의 안내문구 수정 필요
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">                      	
+                      데이터 추가 / DB 데이터 추가 화면에서 SQL 입력창 안내문구 오류                 
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      검색어 입력시 400 에러 발생합니다.
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 레이어 / 시각화 유형이 히트맵일때 컨텍스트 메뉴 비활성
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      주제도 svgicon 이슈
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">                      	
+                      데이터 추가 / 공간데이터셋 select box 오류
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      채우기 데이터 타입 HEX CODE일때 속성데이터가 HEX CODE가 아닐 경우 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">                      	
+                      v3.2.0-RELEASE 기능 확인 및 이슈처리
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Web Platform]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  개선
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      메뉴 개수에 따른 UI 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">                      	
+                      IRIS 하위 웹 서비스 파비콘을 신규 아이콘으로 변경
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      비밀번호 변경 시, 임의의 조작으로 비밀번호 복잡성 통제 우회 가능 - 서버에서 유효성 확인 기능 구현
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      비밀번호 암호화 방식 개선
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      logback 로그 생성 위치를 property 로 조절 가능하도록 처리
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">                      	
+                      환경설정 > 기본 설정 > 로그인 사용자 정보 > 대표정보 설정 오류
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      ZuulFilter의 에러 예외처리 추가, ErrorController의 로그 표시 변경
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      일반 HTTP 로그인 시, Public Key로 암호화된 패스워드를 계속 사용 가능한 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [LTE-M] authenticate API 호출시 500 에러 반환되는 문제 - IWP
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Analyzer]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  개선
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 모델 목록 조회 API 를 변경된 내용에 맞게 수정
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      DSL 암호화 처리 추가
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      연결정보 수정 시 not_exists_rowIndex column 오류 발생
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 / Forecast 옵션의 index_type 툴팁이 잘못됨
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 모델 - 아이콘 깨짐 현상
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      검색 / 시간 컬럼이 DATE 유형일 때 시계열 트랜드 차트 그려지지 않는 문제
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Bigdata Platform]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  개선
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [IBP/meta] 계정 API 미비점/문제점 수정
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [IBP/meta] 그룹 API 미비점/문제점 수정
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [IBP/meta] 다른 소유자의 데이터 권한 설정을 변경할 수 있는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [meta] 회원가입 수락시, 에러 반환되고 처리되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [IBP/meta] 회원가입 API 호출시, ID 기준 중복 방지 및 에러 처리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [IBP/meta] 회원가입 API 중복 방지 & 예외 처리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [IWP/meta] 회원가입 신청/수락 처리시 오류 예외 처리, 오류 메시지 수정 필요
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      비밀번호 변경 시, 임의의 조작으로 비밀번호 복잡성 통제 우회 가능
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      파일 브라우저 / 목록(list) 정보 요청시, 특정 경로만 permission 에 따른 필터 적용되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      클러스터 관리 / 대시보드에 비정상노드가 표현되지 않음
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      DB 브라우저 / 계정 삭제시 IRIS-DB 계정 삭제 처리 에러
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      DB브라우저 / 쿼리 결과 다운로드시 빈 파일이 다운로드되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      사용자 관리 / 사용자 목록 검색 필터 오류
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      [LH공사] 대시보드, 클러스터 관리 - 마지막 업데이트 날짜의 시간 포맷 오류
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td height="1" style="border-top: 1px solid #F0F3F6;"></td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td colspan="4" height="46" align="center">
+                  <a href="https://mobigen.atlassian.net/wiki/spaces/IRIS/pages/283738399/IRIS+v3.2.0+Release" target="_blank" style="display: inline-block; height: 24px; padding: 12px 16px; background-color: #005ACD; border-radius: 2px; color: #fff; text-decoration: none; font-size: 16px; vertical-align: middle; line-height: 24px;">
+                    IRIS v3.2.0 주요 배포내용 상세
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- //회원가입 완료 -->
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0" width="700" style="padding:0; margin: 0 auto; background-color: #fff;">
+            <tbody>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://mobigen.atlassian.net/wiki/spaces/IRIS/pages/209027449/IRIS+v3.2.0+Patch" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; white-space: nowrap;">
+                    <span style="display: inline-block;vertical-align: middle;">
+                      <img src="https://lh3.googleusercontent.com/pw/AM-JKLWZmAVUa4-4K_fnGyJQ9kTv7FPovwl0Igd5rjUYgfGbMGooN73GVNfmwV6cPxKFp1iW5Fdf4L___OzX2fjJnZqeH8XdagEvXPDIUc2UtCMfwb6ML7MQovdydRwCxiLhx_3MbaJot5u3cNLplBOMrm3A=s55-no?authuser=0" alt="release" width="55" height="55" style="display: block;">
+                    </span>
+                    <dl style="display: inline-block; vertical-align: middle; padding-left: 24px;width: 80%;">
+                      <dt><strong style="font-size: 14px; color: #77889A; font-weight: 500;">버전 3.2.0 배포 정보</strong></dt>
+                      <dd style="margin: 0; font-size: 12px; color: #77889A;">Jira 릴리스 정보 화면으로 이동 합니다.(Jira 계정으로 로그인 후 확인 가능)</dd>
+                    </dl>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://docs.iris.tools/" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; white-space: nowrap;">
+                    <span style="display: inline-block;vertical-align: middle;">
+                      <img src="https://lh3.googleusercontent.com/pw/AM-JKLXVzxZEOw78YCTEglcqLeM1z2Os4CRoc5jnT6ITv3JScZlf-mRJdyl4UStj16BBSgrqwrz_H70N-vNod7zjni42u7kJ6WrZYUncYP3P2aWYaECIGf0pOGcXBWwCflks2uC_X_ItB-aYYFpkwhGTKcb_=s55-no?authuser=0authuser=0" alt="manual" width="55" height="55" style="display: block;">
+                    </span>
+                    <dl style="display: inline-block; vertical-align: middle; padding-left: 24px;width: 80%;">
+                      <dt><strong style="font-size: 14px; color: #77889A; font-weight: 500;">IRIS 매뉴얼</strong></dt>
+                      <dd style="margin: 0; font-size: 12px; color: #77889A;">메뉴얼 화면으로 이동합니다.</dd>
+                    </dl>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span style="display: inline-block; width: 100%; text-decoration: none; white-space: nowrap;">
+                    <span style="display: inline-block;vertical-align: middle;">
+                      <img src="https://lh3.googleusercontent.com/pw/AM-JKLX8GIzJTHbOPrs_y6yB7WqLMXhBokdzO4jbtD19VBQmonvFCYsKhwBXtMUAPfSyojaLkK8itdlbWGGz6G9o4k2sDNj-RCgr8mSq02bd4mm-IAULQ1HWCMDRyMzb4tMPk_rwKh4YsdZA8mpVxq6DCm7D=s55-no?authuser=0" alt="mail" width="55" height="55" style="display: block;">
+                    </span>
+                    <dl style="display: inline-block; vertical-align: middle; padding-left: 24px;width: 80%;">
+                      <dt><strong style="font-size: 14px; color: #77889A; font-weight: 500;">문의사항</strong></dt>
+                      <dd style="margin: 0; font-size: 12px; color: #77889A;">배포 내용에 대한 문의 사항이 있으면 이메일 (rhcpn@mobigen.com UI솔루션연구팀 박세종 팀장)을 이용해 주시기 바랍니다.</dd>
+                    </dl>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <!-- // 배포  안내  상세 -->
+
+      <!-- 메일 템플릿 Footer -->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" width="100%" border="0" style="margin: 0;border-collapse:collapse; border-spacing:0; color:#9397a6; background-color: #F7F9FC ;">
+            <tr>
+              <td height="24" colspan="2"></td>
+            </tr>
+            <tr>
+              <td width="36"></td>
+              <td>
+                <img src="https://lh3.googleusercontent.com/pw/AM-JKLUsWnvGzZN3H4RP9d9Wd9AtdVB5YU4sKD3mgeFtdYwk5F5ektfzj88h652EcT83uFdHiCKuujC3VOALyOUpouctRk4fb7zrzSEqcNFgz1A28BviYp0SeiSnDczUxykISjCIkhj5FbnspwRBgP73NdTg=w101-h38-no?authuser=0" alt="mobigenLogo" width="101" height="38" style="display: block;">
+              </td>
+            </tr>
+            <tr>
+              <td height="24" colspan="2"></td>
+            </tr>
+            <tr>
+              <td width="36"></td>
+              <td style="font-size: 12px; color: #77889A">
+                Copyright ⓒ Mobigen Corp. All Rights Reserved.
+              </td>
+            </tr>
+            <tr>
+              <td height="24" colspan="2"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- //메일 템플릿 Footer -->
+    </tbody>
+  </table>
+</body>
+
+</html>
