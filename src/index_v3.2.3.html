@@ -1,0 +1,701 @@
+<!--  메일에 사용되는 DOCTYPE -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>이메일 고지</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!--      디바이스에 따라서 사이즈 변경 -->
+  <!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+  <meta name="viewport" content="width=775, initial-scale=1, viewport-fit=cover" />
+</head>
+
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" width="775" style="border-collapse:collapse; border-spacing:0; margin:0 auto; font-family:-apple-system, BlinkMacSystemFont, Roboto, RobotoDraft,'맑은고딕',Malgun Gothic, Sans-serif; background-color: #fff;">
+    <tbody>
+      <!-- 메일 템플릿 Header -->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" style="width:100%; padding: 0; margin: 0; border-collapse:collapse; border-spacing:0;background-color: #fff;">
+            <tr>
+              <td height="24" colspan="4"></td>
+            </tr>
+            <tr>
+              <td width="24"></td>
+              <!-- IRIS logo -->
+              <td width="200">
+                <a href="http://iris.tools" target="_blank" title="새창" style="display: inline-block; text-decoration: none;">
+                  <!-- [D] 이미지 경로 필요 -->
+                  <img src="https://lh3.googleusercontent.com/pw/AM-JKLVxExVavLBBXMyibqqlNor5GpMPEiXgdMsxop_PiafUIHBUi8_HKaWyQWHmAm9pckEN608Kob28fyBEIpEkCgt81ASsP64_ogrm01_eRAM6SxSV2WoyaJdzzptZcLjAaWnRxL5V4Mii616AFxgBAlEZ=w120-h36-no" alt="IRIS Logo" width="120" height="100%" style="display: block;">
+                </a>
+              </td>
+              <!-- // IRIS logo -->
+
+              <!--               IRIS Release Version -->
+              <td width="527" align="right" style="font-size: 16px; color: #77889A;">
+                IRIS Version 3.2.3 배포 안내
+              </td>
+              <td width="24"></td>
+              <!--              // IRIS Release Version -->
+            </tr>
+            <tr>
+              <td height="24" colspan="4"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- //메일 템플릿 Header -->
+
+      <!-- 배포 안내  -->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" height="380" style="width:100%; padding: 0; margin: 0; border-collapse:collapse; border-spacing:0;
+          background-image: url('https://lh3.googleusercontent.com/pw/AM-JKLVGkT-jIPNlLFFby19MPW9tqKvzdcjV4VzBfmjnPTpUCnuO2_YvpIW27tBu8785jJrkkERXu1lfpeqagmLutiZDYQciFsTNP6Unl_lUK6DFqOaUJOxC_VgdqIBfZMwo4n4fsZC_S8GnYvlo0jJRP3lR=w775-h379-no?authuser=0'); background-repeat: no-repeat; background-size: 100% auto; background-color: #FFFFFF;">
+            <tr>
+              <td height="48"></td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size: 32px; color: #012656; font-weight: bold;">
+                IRIS 배포 안내
+              </td>
+            </tr>
+            <tr>
+              <td height="16"></td>
+            </tr>
+            <tr>
+              <td align="center" style="font-size: 18px; color: #012656;">
+                <strong style="font-weight: 700">IRIS 개선 및 신규 기능 </strong>개발 사항 안내 드립니다.
+              </td>
+            </tr>
+            <tr>
+              <td height="24"></td>
+            </tr>
+            <tr>
+              <td align="center" style="padding: 0 100px; font-size: 15px; color: #606974; line-height: 25px;">
+                안녕하세요. <br /> "A New experience in Big Data Analytics" IRIS가 v3.2.3 으로 업그레이드
+                예정입니다. <br />배포에 대한 문의 사항이 있으면 회신 혹은 <a href="https://mobigen.atlassian.net/jira/software/c/projects/IS/issues" target="_blank" title="배포 문의" style="color: #005ACD; display: inline-block;">IRIS Support</a> 에 등록해 주시기 바랍니다.
+              </td>
+            </tr>
+            <tr>
+              <td height="60"></td>
+            </tr>
+            <!-- 주요 배포내용 상세  -->
+            <tr>
+              <td>
+                <table cellpadding="0" cellspacing="0" width="700" style="padding: 0; border-collapse:collapse; border-spacing:0; background-color: #fff; margin: 0 auto;">
+                  <tr>
+                    <td height="24" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td width="118" style="padding-left: 16px; font-size: 14px; font-weight: 600; color: #606974;">배포 버전</td>
+                    <td width="520" style="font-size: 14px; color: #606974;">
+                      IRIS v3.2.3
+                    </td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td colspan="4" height="1" style="border-top: 1px solid #F0F3F6;"></td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td width="118" style="padding-left: 16px; font-size: 14px; font-weight: 600; color: #606974;">배포 일자</td>
+                    <td width="520" style="font-size: 14px; color: #606974;">
+                      2022년 05월 26일 목요일
+                    </td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td colspan="4" height="1" style="border-top: 1px solid #F0F3F6;"></td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td width="118" style="padding-left: 16px; font-size: 14px; font-weight: 600; color: #606974;">배포 항목</td>
+                    <td width="520" style="font-size: 14px; color: #606974;">
+                      상세 내용 참고
+                      <p style="font-size: 14px; color: #77889A;">· 보다 자세한 상세 설명을 원하실 경우, "IRIS v3.2.3 주요 배포내용 상세보기 " 버튼 클릭 시, 상세 설명 문서로 이동합니다. </p>
+                    </td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td width="12"></td>
+                    <td colspan="4" height="1" style="border-top: 1px solid #F0F3F6;"></td>
+                    <td width="12"></td>
+                  </tr>
+                  <tr>
+                    <td height="16" colspan="4"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="4" height="46" align="center">
+                      <a href="https://mobigen.atlassian.net/l/c/yuMEf0a7" target="_blank" style="display: inline-block; height: 24px; padding: 12px 16px 12px 16px; background-color: #005ACD; border-radius: 2px; color: #fff; text-decoration: none; font-size: 16px; vertical-align: middle; line-height: 24px;">
+                        IRIS v3.2.3 주요 배포내용 상세
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="24" colspan="4"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- // 주요 배포내용 상세  -->
+          </table>
+        </td>
+      </tr>
+      <!-- // 배포 안내  -->
+
+      <!-- 배포  안내  상세 -->
+      <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0" width="700" style="padding:0; margin: 0 auto; background-color: #fff;">
+            <tbody>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td style="font-size: 18px; color: #212121; font-weight: 600;">
+                  IRIS 매뉴얼 갱신 안내
+                </td>
+              </tr>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="3" style=" background: linear-gradient(269.9deg, #13D4FF 45.8%, #2182FF 86.64%);"></td>
+              </tr>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Web Platform]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  IWP 일반 기능
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      로그인 화면
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      홈화면
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      개인 설정/유저 정보
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  IWP 관리 기능
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      작업 조회
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      사용자 관리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      메뉴 관리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Status
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      로그인 페이지 관리
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      환경 설정
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Discovery]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  파일 브라우저
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  데이터 모델
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  연결정보
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Studio]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  보고서
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  [참고] 보고서를 대시보드 기본으로 설정하기
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  [참고] 객체 유형
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 시각화 객체
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      데이터 시각화 객체(차트) 시각화 옵션
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      꾸미기 객체
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      양식 객체
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      제어 객체
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      특수/기타 객체
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Analyzer]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  검색
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  피벗
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  시각화
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  이상탐지
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  분석 템플릿 목록
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  [참고] 피벗 설정하기
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      피벗 설정 (1) 테이블
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      피벗 설정 (2) 가로막대형/세로막대형
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      피벗 설정 (3) 원형
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  [참고] 시각화 분석 설정하기
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 분석 (1) 시계열
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 분석 (2) 분포
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 분석 (3) 관계형
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 분석 (4) 이상치
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 분석 (5) 예측
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 분석 (6) 지도형
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Map Analyzer]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  분석하기
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  [참고] 시각화 레이어 설정하기
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 레이어 (1) 폴리곤
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 레이어 (2) 원
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 레이어 (3) 마커
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      시각화 레이어 (4) 히트맵
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td height="1" style="border-top: 1px solid #F0F3F6;"></td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td colspan="4" height="46" align="center">
+                  <a href="https://mobigen.atlassian.net/l/c/yuMEf0a7" target="_blank" style="display: inline-block; height: 24px; padding: 12px 16px; background-color: #005ACD; border-radius: 2px; color: #fff; text-decoration: none; font-size: 16px; vertical-align: middle; line-height: 24px;">
+                    IRIS v3.2.3 주요 배포내용 상세
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0" width="700" style="padding:0; margin: 0 auto; background-color: #fff;">
+            <tbody>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td style="font-size: 18px; color: #212121; font-weight: 600;">
+                  IRIS 배포 안내 상세
+                </td>
+              </tr>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td width="100%" height="3" style=" background: linear-gradient(269.9deg, #13D4FF 45.8%, #2182FF 86.64%);"></td>
+              </tr>
+              <tr>
+                <td height="16"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Studio]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  개선
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      기간 설정 / 시각화 옵션 > 시간 목록(프리셋)에 이전주, 이전분기 항목 추가
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      AGGrid 프로그래스바 디자인 개선
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 화면 - 보고서를 다중 선택하고 권한 변경 팝업창을 띄우면 에러 발생
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      목록 화면 - 필터 입력란에 일부 특수문자 입력시 에러 발생
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      (IE11) 편집 화면 진입시 웹 페이지 초기화가 대단히 느리거나 응답없음으로 처리되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      콤보박스 > 디폴트 값으로 초기화 되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      콤보박스(Select-box) virtual scroll 오동작 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / (IE11) Progress Bar 가 표시되지 않는 문제, 시각화 옵션 위치 버그
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / 테이블 - 행 선택 설정이 다중 선택일 때, 모든 항목을 해제하면 변수값이 갱신되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">	
+                      Chart / 테이블 유형 - 객체 선택시 헤더 순서 설정이 초기화되는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Chart / Windows Chrome 환경에서 차트에 글꼴이 적용되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      날짜&시간, 기간 설정 / 트리거 설정시 코드 에러 발생
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      Popup, Portlet / 연결한 보고서 내에서 Nunjucks 문법이 정상 처리되지 않는 문제
+                    </li>
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      반응형 모드 height 관련 오동작 문제
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Map Analyzer]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      주소 검색시 버튼 클릭이 되지 않는 문제
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td style="padding: 0 0 0 12px; font-size: 16px; font-weight: 600; color: #005ACD">
+                  [IRIS Web Platform]
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 12px 0 0 24px; font-size: 16px; font-weight: 600; color: #212121">
+                  버그
+                </td>
+              </tr>
+              <tr>
+                <td style="padding: 8px 0 0 48px;">
+                  <ul style="margin: 0; padding: 0; font-size: 14px; font-weight: 400; color: #606974;">
+                    <li style="padding-top: 6px; font-size: 14px; color: #606974">
+                      회원가입시 패스워드 처리 오류 문제
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td height="1" style="border-top: 1px solid #F0F3F6;"></td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td colspan="4" height="46" align="center">
+                  <a href="https://mobigen.atlassian.net/l/c/yuMEf0a7" target="_blank" style="display: inline-block; height: 24px; padding: 12px 16px; background-color: #005ACD; border-radius: 2px; color: #fff; text-decoration: none; font-size: 16px; vertical-align: middle; line-height: 24px;">
+                    IRIS v3.2.3 주요 배포내용 상세
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0" width="700" style="padding:0; margin: 0 auto; background-color: #fff;">
+            <tbody>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://mobigen.atlassian.net/l/c/yuMEf0a7" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; white-space: nowrap;">
+                    <span style="display: inline-block;vertical-align: middle;">
+                      <img src="https://lh3.googleusercontent.com/pw/AM-JKLWZmAVUa4-4K_fnGyJQ9kTv7FPovwl0Igd5rjUYgfGbMGooN73GVNfmwV6cPxKFp1iW5Fdf4L___OzX2fjJnZqeH8XdagEvXPDIUc2UtCMfwb6ML7MQovdydRwCxiLhx_3MbaJot5u3cNLplBOMrm3A=s55-no?authuser=0" alt="release" width="55" height="55" style="display: block;">
+                    </span>
+                    <dl style="display: inline-block; vertical-align: middle; padding-left: 24px;width: 80%;">
+                      <dt><strong style="font-size: 14px; color: #77889A; font-weight: 500;">버전 3.2.3 배포 정보</strong></dt>
+                      <dd style="margin: 0; font-size: 12px; color: #77889A;">Jira 릴리스 정보 화면으로 이동 합니다.(Jira 계정으로 로그인 후 확인 가능)</dd>
+                    </dl>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://docs.iris.tools/" target="_blank" style="display: inline-block; width: 100%; text-decoration: none; white-space: nowrap;">
+                    <span style="display: inline-block;vertical-align: middle;">
+                      <img src="https://lh3.googleusercontent.com/pw/AM-JKLXVzxZEOw78YCTEglcqLeM1z2Os4CRoc5jnT6ITv3JScZlf-mRJdyl4UStj16BBSgrqwrz_H70N-vNod7zjni42u7kJ6WrZYUncYP3P2aWYaECIGf0pOGcXBWwCflks2uC_X_ItB-aYYFpkwhGTKcb_=s55-no?authuser=0authuser=0" alt="manual" width="55" height="55" style="display: block;">
+                    </span>
+                    <dl style="display: inline-block; vertical-align: middle; padding-left: 24px;width: 80%;">
+                      <dt><strong style="font-size: 14px; color: #77889A; font-weight: 500;">IRIS 매뉴얼</strong></dt>
+                      <dd style="margin: 0; font-size: 12px; color: #77889A;">메뉴얼 화면으로 이동합니다.</dd>
+                    </dl>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+              <tr>
+                <td>
+                  <span style="display: inline-block; width: 100%; text-decoration: none; white-space: nowrap;">
+                    <span style="display: inline-block;vertical-align: middle;">
+                      <img src="https://lh3.googleusercontent.com/pw/AM-JKLX8GIzJTHbOPrs_y6yB7WqLMXhBokdzO4jbtD19VBQmonvFCYsKhwBXtMUAPfSyojaLkK8itdlbWGGz6G9o4k2sDNj-RCgr8mSq02bd4mm-IAULQ1HWCMDRyMzb4tMPk_rwKh4YsdZA8mpVxq6DCm7D=s55-no?authuser=0" alt="mail" width="55" height="55" style="display: block;">
+                    </span>
+                    <dl style="display: inline-block; vertical-align: middle; padding-left: 24px;width: 80%;">
+                      <dt><strong style="font-size: 14px; color: #77889A; font-weight: 500;">문의사항</strong></dt>
+                      <dd style="margin: 0; font-size: 12px; color: #77889A;">배포에 대한 문의 사항이 있으면 회신 혹은 <a href="https://mobigen.atlassian.net/jira/software/c/projects/IS/issues" target="_blank" title="배포 문의" style="color: #005ACD; display: inline-block;">IRIS Support</a> 에 등록해 주시기 바랍니다.</dd>
+                    </dl>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td height="24"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <!-- // 배포  안내  상세 -->
+
+      <!-- 메일 템플릿 Footer -->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0" width="100%" border="0" style="margin: 0;border-collapse:collapse; border-spacing:0; color:#9397a6; background-color: #F7F9FC ;">
+            <tr>
+              <td height="24" colspan="2"></td>
+            </tr>
+            <tr>
+              <td width="36"></td>
+              <td>
+                <img src="https://lh3.googleusercontent.com/pw/AM-JKLUsWnvGzZN3H4RP9d9Wd9AtdVB5YU4sKD3mgeFtdYwk5F5ektfzj88h652EcT83uFdHiCKuujC3VOALyOUpouctRk4fb7zrzSEqcNFgz1A28BviYp0SeiSnDczUxykISjCIkhj5FbnspwRBgP73NdTg=w101-h38-no?authuser=0" alt="mobigenLogo" width="101" height="38" style="display: block;">
+              </td>
+            </tr>
+            <tr>
+              <td height="24" colspan="2"></td>
+            </tr>
+            <tr>
+              <td width="36"></td>
+              <td style="font-size: 12px; color: #77889A">
+                Copyright ⓒ Mobigen Corp. All Rights Reserved.
+              </td>
+            </tr>
+            <tr>
+              <td height="24" colspan="2"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- //메일 템플릿 Footer -->
+    </tbody>
+  </table>
+</body>
+
+</html>
